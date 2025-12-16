@@ -18,7 +18,7 @@ export class GeminiAIService {
 
   constructor() {
     try {
-      const apiKey = 'AIzaSyAvizj85gwdtMFw4koAl9YlRfwH6ObqMQE';
+      const apiKey = '';
       console.log('Initializing Gemini AI with API key:', apiKey.substring(0, 10) + '...');
       
       this.genAI = new GoogleGenerativeAI(apiKey);
